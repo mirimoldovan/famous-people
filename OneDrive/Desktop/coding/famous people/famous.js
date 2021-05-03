@@ -1,25 +1,23 @@
 const quotes = [
     { 
-      quote : 'It always seems impossible until is done.',
-      author: 'Nelson Mandela'    
+      quote : 'Dacă vrei să fii iubit, iubește!'
+      author: 'Seneca'    
     },
     {
-      quote: 'Life is what happens when you\'re busy making other plans.',
-      author: 'Jhon Lennon'
+      quote: 'Nu e nevoie de motiv pentru a iubi.',
+      author: 'Paulo Coelho'
     },
     {
-      quote: 'Tell me and I forget. Teach me and I remember. Involve me and I learn.',
-      author: 'Benjamin Franklin'
+      quote: 'Fericirea este în noi, niciodată în jurul nostru.'
+      author: 'Mihail Sadoveanul'
+        
     },
     {
-      quote: 'The future belongs to those who believe in the beauty of their dreams.',
-      author: 'Eleanor Roosevelt'
+      quote: 'Oamenii fericiți au memorie scurtă și multe amintiri.
+      author: 'Martin Page'
     },
     {
-      quote: 'Whoever is happy will make others happy too.',
-      author: 'Anne Frank'
-    }
-    ];
+      
     
     document.getElementById('btn2').onclick = function(){
     let randomDisplay = quotes[Math.floor(Math.random() * quotes.length)];
